@@ -4,8 +4,6 @@
 #include <bits/stdc++.h>
 
 
-std::vector<std::string>displayMenu();
 
+std::vector<int>PriceList();
 
-
-#endif
