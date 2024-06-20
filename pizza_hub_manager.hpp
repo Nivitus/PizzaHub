@@ -6,4 +6,5 @@
 
 
 std::vector<int>PriceList();
+#endif
 
