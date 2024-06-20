@@ -1,10 +1,18 @@
-#ifndef MYFUNCTIONS_H
-#define MYFUNCTIONS_H
-#include <iostream>
+#ifndef PIZZAHUB_HPP
+#define PIZZAHUB_HPP
+
 #include <bits/stdc++.h>
 
-std::vector<std::string>DisplayMenu();
-std::vector<int>PriceList();
+struct Menu_Management {
+    int cust_id;
+    std::string pizzaType;
+    int quantity;
+    bool withExtraCheese;
+    double price;
+};
 
-#endif
+std::vector<std::string> getPizzaTypes();
+void displayMenu(const std::string& pizzaType);
+
+#endif //PIZZAHUB_HPP
 
